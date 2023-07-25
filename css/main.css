@@ -1,0 +1,150 @@
+:root {
+  --background-light: #d8d1cb;
+}
+
+body {
+  font-family: "Cormorant Garamond" !important;
+}
+
+.navbar {
+  justify-content: end !important;
+  display: flex;
+  justify-content: flex-end !important;
+}
+
+.nav-item {
+  font-size: x-large !important;
+  color: black !important;
+}
+
+.navbar-brand {
+  margin-left: auto;
+}
+
+.navbar-nav {
+  margin-right: 90px !important;
+  color: black !important;
+  margin: 10px 0 !important;
+}
+
+.footer-section {
+  height: 330px;
+  background-color: var(--background-light);
+  font-size: large !important;
+}
+
+.big-footer {
+  height: 250px;
+}
+
+.icon {
+  position: relative;
+  top: 5px;
+}
+
+.fa {
+  font-size: 20px !important;
+  margin: 0px 7px !important;
+  color: black !important;
+}
+
+.socials {
+  padding-top: 80px;
+}
+
+.logo-footer {
+  width: 200px;
+  height: auto;
+  padding-top: 60px;
+}
+.small-footer {
+  height: auto;
+  margin-bottom: 0 !important;
+  padding-top: 40px;
+}
+
+#footer-text-bottom {
+  font-size: small !important;
+  margin-bottom: 0 !important;
+  padding-top: 15px !important;
+}
+
+#myBtn {
+  position: sticky;
+  bottom: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background: none;
+  color: black;
+  cursor: pointer;
+  width: 70px;
+  float: right !important;
+}
+
+#arrow {
+  font-size: 48px !important;
+}
+
+@media all and (max-width: 600px) {
+  .navbar-brand {
+    padding: 0 0 !important;
+    margin: 0 0 !important;
+  }
+
+  .navbar-brand > img {
+    width: 90px;
+    height: 50px;
+  }
+
+  .navbar-nav {
+    background-color: var(--background-light);
+    border-radius: 5%;
+    height: auto;
+    width: 100px;
+  }
+
+  .nav-item {
+    font-size: small !important;
+  }
+
+  .big-footer {
+    height: 550px;
+    background-color: var(--background-light);
+  }
+
+  .small-footer {
+    background-color: var(--background-light);
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  .navbar-brand {
+    padding: 0 0 !important;
+    margin: 0 0 !important;
+  }
+
+  .navbar-brand > img {
+    width: 230px;
+    height: 150px;
+  }
+
+  .navbar-nav {
+    background-color: var(--background-light);
+    border-radius: 5%;
+    height: auto;
+    width: 200px;
+  }
+
+  .big-footer {
+    height: 550px !important;
+    background-color: var(--background-light);
+  }
+
+  .small-footer {
+    background-color: var(--background-light);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+}

@@ -1,0 +1,76 @@
+:root {
+  --background-light: #d8d1cb;
+}
+
+.first-section {
+  margin-top: 80px;
+}
+
+.column2 {
+  display: flex;
+}
+
+#pic1 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 20px !important;
+}
+
+.first-section,
+.second-section > p {
+  font-size: large !important;
+  text-align: justify;
+}
+
+.second-section {
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+@media all and (max-width: 600px) {
+  #pic1 {
+    width: 250px !important;
+    height: 250px !important;
+    margin-bottom: 50px !important;
+  }
+
+  .first-section {
+    margin-top: 50px !important;
+  }
+
+  h2 {
+    text-align: center !important;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  #pic1 {
+    width: 450px !important;
+    height: 450px !important;
+    margin-bottom: 50px !important;
+  }
+
+  h2 {
+    text-align: center !important;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  #pic1 {
+    width: 350px !important;
+    height: 350px !important;
+  }
+
+  h2 {
+    text-align: center !important;
+  }
+
+  #last-paragraph-s1 {
+    display: none !important;
+  }
+}

@@ -1,0 +1,263 @@
+:root {
+  --background-light: #d8d1cb;
+}
+
+.header {
+  width: 100%;
+  background-image: url("/img/pexels-ylanite-koppens-1831748.jpg");
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+
+.definition {
+  position: absolute;
+  margin-top: 200px;
+}
+
+.first-section {
+  height: 700px !important;
+}
+
+.fs-text {
+  font-size: large !important;
+}
+
+.column1 {
+  padding-left: 40px !important;
+  padding-top: 250px !important;
+}
+
+.column2 {
+  padding-left: 40px !important;
+  padding-top: 150px !important;
+}
+
+#pic1 {
+  max-width: auto !important;
+}
+.cta {
+  background: url("/img/7349t843.jpg") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 400px;
+  margin-top: 90px !important;
+}
+
+.cta-content {
+  margin-top: 80px !important;
+}
+
+.third-section {
+  height: 850px;
+  margin-top: 180px;
+}
+
+.service-col {
+  width: auto !important;
+  flex: none !important;
+}
+
+.cards {
+  margin-top: 50px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  width: 330px;
+  height: 550px;
+  margin-right: 0px !important;
+}
+
+.card-img-top {
+  padding: 20px 20px;
+}
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .content {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  color: #03446a;
+  text-align: center;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background: var(--background-light);
+  color: black;
+  transform: rotateY(180deg);
+  padding: 50px 20px !important;
+}
+
+.card-text-back {
+  text-align: justify;
+  margin-top: 25px;
+}
+
+.fourth-section {
+  margin-bottom: 200px;
+}
+
+.text-block {
+  margin: 50px 170px !important;
+  font-size: large !important;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    height: 500px;
+  }
+
+  .first-section {
+    height: 550px !important;
+  }
+
+  .row1 {
+    margin: 0 0 !important;
+    justify-content: center !important;
+  }
+  .column1 {
+    padding-left: 20px !important;
+    padding-top: 50px !important;
+    text-align: center !important;
+  }
+
+  .column2 {
+    padding-top: 10px !important;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  #pic1 {
+    width: 250px !important;
+  }
+
+  .second-section {
+    height: 500px !important;
+  }
+
+  .cta {
+    height: 500px;
+  }
+
+  .cta-content > p {
+    padding: 0 10px;
+  }
+
+  .btn {
+    width: 250px;
+  }
+
+  .third-section {
+    margin-top: 50px !important;
+    height: 1600px;
+  }
+
+  .card {
+    width: 260px;
+    height: 470px;
+    margin-bottom: 20px;
+  }
+
+  .flip-card-back {
+    padding: 20px 10px !important;
+  }
+
+  .fourth-section {
+    margin-top: 0 !important;
+    width: 100%;
+    height: 600px;
+  }
+
+  .fourth-section > p {
+    padding: 0px 10px !important;
+    margin-top: 30px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  .first-section {
+    height: 900px;
+    margin-bottom: 150px !important;
+  }
+
+  .column1 {
+    padding-top: 150px !important;
+    text-align: center;
+    padding-left: 0 !important;
+  }
+
+  .column2 {
+    padding-top: 10px !important;
+    display: flex;
+    justify-content: center;
+    padding-left: 0 !important;
+  }
+
+  #pic1 {
+    width: 400px !important;
+  }
+
+  .second-section,
+  .cta {
+    height: 450px !important;
+  }
+
+  .third-section {
+    height: 1400px !important;
+  }
+
+  .card {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  #pic1 {
+    width: 400px !important;
+  }
+
+  .first-section {
+    height: 600px !important;
+  }
+
+  .column1 {
+    padding-top: 180px !important;
+  }
+
+  .column2 {
+    padding-top: 160px !important;
+  }
+
+  .third-section {
+    height: 1400px !important;
+    margin-top: 150px !important;
+  }
+
+  .card {
+    margin-bottom: 30px !important;
+  }
+}
